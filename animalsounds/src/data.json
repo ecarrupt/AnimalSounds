@@ -9,6 +9,11 @@
             "name": "Chat",
             "photo": "cat.jpg",
             "sound": "cat.mp3"
+        },
+        {
+            "name": "Grenouille",
+            "photo": "frog.jpg",
+            "sound": "frog.wav"
         }
     ]
 }
