@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animalsounds/static/css/main.2c8e9a93.css",
+    "main.js": "/animalsounds/static/js/main.4f1a3df7.js",
+    "index.html": "/animalsounds/index.html",
+    "main.2c8e9a93.css.map": "/animalsounds/static/css/main.2c8e9a93.css.map",
+    "main.4f1a3df7.js.map": "/animalsounds/static/js/main.4f1a3df7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c8e9a93.css",
+    "static/js/main.4f1a3df7.js"
+  ]
+}
