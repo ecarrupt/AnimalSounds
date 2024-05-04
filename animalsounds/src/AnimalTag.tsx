@@ -1,4 +1,5 @@
-import { FC, useState } from "react";
+import { FC } from "react";
+import "./AnimalTag.css"
 
 export class Animal {
   name!: string;
@@ -18,10 +19,10 @@ const AnimalTag: FC<AnimalTagProps> = (props: AnimalTagProps) => {
   };
 
   return (
-    <div onClick={playSound}>
-      {props.animal.name === props.playing && (<div>PLAYING</div>)}
+    <div onClick={playSound} className="tag">
+      <div className={(props.animal.name === props.playing ? "playing" : "") + " image-cropper"} >
+      <img src={"./photos/" + props.animal.photo} width={200} height={200} /></div>
       <div>{props.animal.name}</div>
-      <img src={"./photos/" + props.animal.photo} />
     </div>
   );
 };

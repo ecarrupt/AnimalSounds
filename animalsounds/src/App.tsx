@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="AnimalList">
         {data.map(a => {
           return (<AnimalTag animal={a} onPlay={onPlay} playing={playing} />)
         })}
