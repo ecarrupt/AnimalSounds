@@ -1,23 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
+import AnimalTag, { Animal } from './AnimalTag';
 import './App.css';
+import dataSource from './data.json';
 
 function App() {
+
+  const [data] = useState<Animal[]>(dataSource.animals);
+  const [sounds] = useState(dataSource.animals.map(a => {return {name: a.name, sound: new Audio("./sounds/"+a.sound)}}))
+
+  const onPlay = (name: string) => {
+    sounds.map(s => {
+      if (s.name === name) {
+        s.sound.load()
+        s.sound.play()
+      } else
+        s.sound.pause()
+    })
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {data.map(a => {
+          return (<AnimalTag animal={a} onPlay={onPlay} playing={false} />)
+        })}
       </header>
     </div>
   );

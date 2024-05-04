@@ -1,0 +1,14 @@
+{
+    "animals": [
+        {
+            "name": "Chien",
+            "photo": "dog.jpg",
+            "sound": "dog.wav"
+        },
+        {
+            "name": "Chat",
+            "photo": "cat.jpg",
+            "sound": "cat.mp3"
+        }
+    ]
+}
