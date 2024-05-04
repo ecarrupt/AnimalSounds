@@ -8,7 +8,7 @@ export class Animal {
 
 export class AnimalTagProps {
   onPlay!: (name: string) => void;
-  playing!: boolean;
+  playing!: string;
   animal!: Animal;
 }
 
@@ -19,6 +19,7 @@ const AnimalTag: FC<AnimalTagProps> = (props: AnimalTagProps) => {
 
   return (
     <div onClick={playSound}>
+      {props.animal.name === props.playing && (<div>PLAYING</div>)}
       <div>{props.animal.name}</div>
       <img src={"./photos/" + props.animal.photo} />
     </div>
