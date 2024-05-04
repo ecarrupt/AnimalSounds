@@ -3,17 +3,117 @@
         {
             "name": "Chien",
             "photo": "dog.jpg",
-            "sound": "dog.wav"
+            "sound": "dog.mp3"
+        },
+        {
+            "name": "Chiot",
+            "photo": "dog_baby.jpg",
+            "sound": "dog_baby.mp3"
+        },
+        {
+            "name": "Âne",
+            "photo": "donkey.jpg",
+            "sound": "donkey.mp3"
+        },
+        {
+            "name": "Oie",
+            "photo": "goose.jpg",
+            "sound": "goose.mp3"
+        },
+        {
+            "name": "Lapin",
+            "photo": "rabbit.jpg",
+            "sound": "rabbit.mp3"
+        },
+        {
+            "name": "Poule",
+            "photo": "chicken.jpg",
+            "sound": "chicken.mp3"
+        },
+        {
+            "name": "Poussin",
+            "photo": "chicken_baby.jpg",
+            "sound": "chicken_baby.mp3"
+        },
+        {
+            "name": "Porc",
+            "photo": "pig.jpg",
+            "sound": "pig.mp3"
+        },
+        {
+            "name": "Porcelet",
+            "photo": "pig_baby.jpg",
+            "sound": "pig_baby.mp3"
+        },
+        {
+            "name": "Canard",
+            "photo": "duck.jpg",
+            "sound": "duck.mp3"
+        },
+        {
+            "name": "Caneton",
+            "photo": "duck_baby.jpg",
+            "sound": "duck_baby.mp3"
+        },
+        {
+            "name": "Tracteur",
+            "photo": "tractor.jpg",
+            "sound": "tractor.mp3"
+        },
+        {
+            "name": "Vache",
+            "photo": "cow.jpg",
+            "sound": "cow.mp3"
+        },
+        {
+            "name": "Veau",
+            "photo": "cow_baby.jpg",
+            "sound": "cow_baby.mp3"
+        },
+        {
+            "name": "Poulain",
+            "photo": "horse_baby.jpg",
+            "sound": "horse_baby.mp3"
+        },
+        {
+            "name": "Cheval",
+            "photo": "horse.jpg",
+            "sound": "horse.mp3"
+        },
+        {
+            "name": "Coq",
+            "photo": "cock.jpg",
+            "sound": "cock.mp3"
         },
         {
             "name": "Chat",
-            "photo": "cat.jpg",
-            "sound": "cat.mp3"
+            "photo": "kitten.jpg",
+            "sound": "kitten.mp3"
         },
         {
-            "name": "Grenouille",
-            "photo": "frog.jpg",
-            "sound": "frog.wav"
+            "name": "Mouton",
+            "photo": "sheep.jpg",
+            "sound": "sheep.mp3"
+        },
+        {
+            "name": "Agneau",
+            "photo": "sheep_baby.jpg",
+            "sound": "sheep_baby.mp3"
+        },
+        {
+            "name": "Chèvre",
+            "photo": "goat.jpg",
+            "sound": "goat.mp3"
+        },
+        {
+            "name": "Corbeau",
+            "photo": "crow.jpg",
+            "sound": "crow.mp3"
+        },
+        {
+            "name": "Abeille",
+            "photo": "bee.jpg",
+            "sound": "bee.mp3"
         }
     ]
 }
