@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AnimalSounds/static/css/main.2c8e9a93.css",
-    "main.js": "/AnimalSounds/static/js/main.888658a5.js",
-    "index.html": "/AnimalSounds/index.html",
-    "main.2c8e9a93.css.map": "/AnimalSounds/static/css/main.2c8e9a93.css.map",
-    "main.888658a5.js.map": "/AnimalSounds/static/js/main.888658a5.js.map"
+    "main.css": "/static/css/main.2c8e9a93.css",
+    "main.js": "/static/js/main.633d3996.js",
+    "index.html": "/index.html",
+    "main.2c8e9a93.css.map": "/static/css/main.2c8e9a93.css.map",
+    "main.633d3996.js.map": "/static/js/main.633d3996.js.map"
   },
   "entrypoints": [
     "static/css/main.2c8e9a93.css",
-    "static/js/main.888658a5.js"
+    "static/js/main.633d3996.js"
   ]
 }
