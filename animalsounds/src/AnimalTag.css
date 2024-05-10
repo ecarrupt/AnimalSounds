@@ -1,10 +1,6 @@
-.tag {
-  width: 208px;
-}
-
 .image-cropper {
-  width: 200px;
-  height: 200px;
+  width: 1fr;
+  aspect-ratio : 1 / 1;
   position: relative;
   overflow: hidden;
   border-radius: 50%;

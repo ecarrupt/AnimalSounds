@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { DragEvent, FC } from "react";
 import "./AnimalTag.css"
 
 export class Animal {
@@ -18,8 +18,13 @@ const AnimalTag: FC<AnimalTagProps> = (props: AnimalTagProps) => {
     props.onPlay(props.animal.name);
   };
 
+  const onDragStart = (ev : DragEvent<Element>) => {
+    ev.stopPropagation();
+    props.onPlay(props.animal.name);
+  }
+
   return (
-    <div onClick={playSound} className="tag">
+    <div onClick={playSound} onDragStart={onDragStart}>
       <div className={(props.animal.name === props.playing ? "playing" : "") + " image-cropper"} >
       <img src={"./photos/" + props.animal.photo} width={200} height={200} alt={props.animal.name} /></div>
       <div>{props.animal.name}</div>

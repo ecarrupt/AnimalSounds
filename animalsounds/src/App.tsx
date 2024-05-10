@@ -8,41 +8,40 @@ function App() {
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value));
-  const [sounds] = useState(
-    dataSource.animals
-      .map((a) => {
-        return { name: a.name, sound: new Audio("./sounds/" + a.sound) };
-      })
-  );
-  const [playing, setPlaying] = useState<string>("");
+  const [sound] = useState(new Audio(""));
+  const [selected, setSelected] = useState<Animal|null>(null);
+
+  const onEnded = () => {
+    setSelected(null)
+  }
 
   const onPlay = (name: string) => {
-    sounds.forEach((s) => {
-      if (s.name === name) {
-        s.sound.load();
-        s.sound.play();
-        s.sound.onended = () => {
-          setPlaying("");
-        };
-      } else s.sound.pause();
-    });
-    setPlaying(name);
+    if (!selected || selected.name !== name) {
+      const newSelected = data.find(a => a.name === name)!;
+      sound.src = "./sounds/" + newSelected.sound;
+      sound.load();
+      sound.play();
+      if (!sound.onended) {
+        sound.onended = onEnded
+      }
+      setSelected(newSelected);
+    }
   };
 
   return (
     <div className="App">
-      <header className="AnimalList">
+      <div className="AnimalList">
         {data.map((a) => {
           return (
             <AnimalTag
               key={a.name}
               animal={a}
               onPlay={onPlay}
-              playing={playing}
+              playing={selected ? selected.name:""}
             />
           );
         })}
-      </header>
+      </div>
     </div>
   );
 }
