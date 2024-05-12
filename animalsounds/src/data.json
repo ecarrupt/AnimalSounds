@@ -1,119 +1,320 @@
 {
+    "categories": [
+        {
+            "id": "forest",
+            "name": "Forêt"
+        },
+        {
+            "id": "farm",
+            "name": "Ferme"
+        }
+    ],
     "animals": [
         {
             "name": "Chien",
             "photo": "dog.jpg",
-            "sound": "dog.mp3"
+            "sound": "dog.mp3",
+            "category": "farm"
         },
         {
             "name": "Chiot",
             "photo": "dog_baby.jpg",
-            "sound": "dog_baby.mp3"
+            "sound": "dog_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Âne",
             "photo": "donkey.jpg",
-            "sound": "donkey.mp3"
+            "sound": "donkey.mp3",
+            "category": "farm"
         },
         {
             "name": "Oie",
             "photo": "goose.jpg",
-            "sound": "goose.mp3"
+            "sound": "goose.mp3",
+            "category": "farm"
         },
         {
             "name": "Lapin",
             "photo": "rabbit.jpg",
-            "sound": "rabbit.mp3"
+            "sound": "rabbit.mp3",
+            "category": "farm"
         },
         {
             "name": "Poule",
             "photo": "chicken.jpg",
-            "sound": "chicken.mp3"
+            "sound": "chicken.mp3",
+            "category": "farm"
         },
         {
             "name": "Poussin",
             "photo": "chicken_baby.jpg",
-            "sound": "chicken_baby.mp3"
+            "sound": "chicken_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Porc",
             "photo": "pig.jpg",
-            "sound": "pig.mp3"
+            "sound": "pig.mp3",
+            "category": "farm"
         },
         {
             "name": "Porcelet",
             "photo": "pig_baby.jpg",
-            "sound": "pig_baby.mp3"
+            "sound": "pig_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Canard",
             "photo": "duck.jpg",
-            "sound": "duck.mp3"
+            "sound": "duck.mp3",
+            "category": "farm"
         },
         {
             "name": "Caneton",
             "photo": "duck_baby.jpg",
-            "sound": "duck_baby.mp3"
+            "sound": "duck_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Tracteur",
             "photo": "tractor.jpg",
-            "sound": "tractor.mp3"
+            "sound": "tractor.mp3",
+            "category": "farm"
         },
         {
             "name": "Vache",
             "photo": "cow.jpg",
-            "sound": "cow.mp3"
+            "sound": "cow.mp3",
+            "category": "farm"
         },
         {
             "name": "Veau",
             "photo": "cow_baby.jpg",
-            "sound": "cow_baby.mp3"
+            "sound": "cow_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Poulain",
             "photo": "horse_baby.jpg",
-            "sound": "horse_baby.mp3"
+            "sound": "horse_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Cheval",
             "photo": "horse.jpg",
-            "sound": "horse.mp3"
+            "sound": "horse.mp3",
+            "category": "farm"
         },
         {
             "name": "Coq",
             "photo": "cock.jpg",
-            "sound": "cock.mp3"
+            "sound": "cock.mp3",
+            "category": "farm"
         },
         {
             "name": "Chat",
             "photo": "kitten.jpg",
-            "sound": "kitten.mp3"
+            "sound": "kitten.mp3",
+            "category": "farm"
         },
         {
             "name": "Mouton",
             "photo": "sheep.jpg",
-            "sound": "sheep.mp3"
+            "sound": "sheep.mp3",
+            "category": "farm"
         },
         {
             "name": "Agneau",
             "photo": "sheep_baby.jpg",
-            "sound": "sheep_baby.mp3"
+            "sound": "sheep_baby.mp3",
+            "category": "farm"
         },
         {
             "name": "Chèvre",
             "photo": "goat.jpg",
-            "sound": "goat.mp3"
+            "sound": "goat.mp3",
+            "category": "farm"
         },
         {
             "name": "Corbeau",
             "photo": "crow.jpg",
-            "sound": "crow.mp3"
+            "sound": "crow.mp3",
+            "category": "farm"
         },
         {
             "name": "Abeille",
             "photo": "bee.jpg",
-            "sound": "bee.mp3"
+            "sound": "bee.mp3",
+            "category": "farm"
+        },
+        {
+            "name": "Ourson",
+            "photo": "bear_baby.jpg",
+            "sound": "bear_baby.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Ours",
+            "photo": "bear.jpg",
+            "sound": "bear.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Pivert",
+            "photo": "woodpecker.jpg",
+            "sound": "woodpecker.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Écureuil",
+            "photo": "squirrel.jpg",
+            "sound": "squirrel.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Mésange bleue",
+            "photo": "blue-tit.jpg",
+            "sound": "blue-tit.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Mésange à longue queue",
+            "photo": "longtail-tit.jpg",
+            "sound": "longtail-tit.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Lapin",
+            "photo": "rabbit-forest.jpg",
+            "sound": "rabbit.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Grenouille",
+            "photo": "frog.jpg",
+            "sound": "frog.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Cerf",
+            "photo": "deer.jpg",
+            "sound": "deer.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Faon",
+            "photo": "deer_baby.jpg",
+            "sound": "deer_baby.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Tortue",
+            "photo": "turtle.jpg",
+            "sound": "turtle.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Castor",
+            "photo": "beaver.jpg",
+            "sound": "beaver.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Loutre",
+            "photo": "otter.jpg",
+            "sound": "otter.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Taupe",
+            "photo": "mole.jpg",
+            "sound": "mole.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Blaireau",
+            "photo": "badger.jpg",
+            "sound": "badger.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Hérisson",
+            "photo": "hedgehog.jpg",
+            "sound": "hedgehog.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Souris",
+            "photo": "mouse.jpg",
+            "sound": "mouse.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Rouge-gorge",
+            "photo": "robin.jpg",
+            "sound": "robin.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Mouffette",
+            "photo": "skunk.jpg",
+            "sound": "skunk.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Renard",
+            "photo": "fox.jpg",
+            "sound": "fox.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Renardeau",
+            "photo": "fox_baby.jpg",
+            "sound": "fox_baby.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Petit élan",
+            "photo": "moose_baby.jpg",
+            "sound": "moose_baby.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Élan",
+            "photo": "moose.jpg",
+            "sound": "moose.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Canard",
+            "photo": "duck-forest.jpg",
+            "sound": "duck.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Hibou",
+            "photo": "owl.jpg",
+            "sound": "owl.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Ruche",
+            "photo": "bee_home.jpg",
+            "sound": "bee_home.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Abeille",
+            "photo": "bee-forest.jpg",
+            "sound": "bee.mp3",
+            "category": "forest"
+        },
+        {
+            "name": "Coccinelle",
+            "photo": "ladybug.jpg",
+            "sound": "ladybug.mp3",
+            "category": "forest"
         }
     ]
 }

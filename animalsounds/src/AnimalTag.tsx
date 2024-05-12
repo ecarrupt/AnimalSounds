@@ -1,10 +1,16 @@
 import { DragEvent, FC } from "react";
 import "./AnimalTag.css"
 
+export class Category {
+  id!: string;
+  name!: string;
+}
+
 export class Animal {
   name!: string;
   photo!: string;
   sound!: string;
+  category!: string;
 }
 
 export class AnimalTagProps {
