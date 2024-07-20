@@ -5,7 +5,7 @@ import dataSource from "./data.json";
 
 function App() {
   const [categories] = useState<Category[]>(dataSource.categories.sort((a, b) => a.name.localeCompare(b.name)))
-  const [category, setCategory] = useState<Category>(categories.find(c => c.id === "forest")!)
+  const [category, setCategory] = useState<Category>(categories.find(c => c.id === "africa")!)
   const [animals] = useState<Animal[]>(dataSource.animals
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)

@@ -7,6 +7,10 @@
         {
             "id": "farm",
             "name": "Ferme"
+        },
+        {
+            "id": "africa",
+            "name": "Afrique"
         }
     ],
     "animals": [
@@ -315,6 +319,132 @@
             "photo": "ladybug.jpg",
             "sound": "ladybug.mp3",
             "category": "forest"
+        },
+        {
+            "name": "Léopard",
+            "photo": "leopard.png",
+            "sound": "leopard.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Léopardeau",
+            "photo": "leopard_baby.png",
+            "sound": "leopard_baby.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Lion",
+            "photo": "lion.png",
+            "sound": "lion.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Lionne",
+            "photo": "lion_female.png",
+            "sound": "lion_female.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Lionceau",
+            "photo": "lion_baby.png",
+            "sound": "lion_baby.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Singe",
+            "photo": "monkey.png",
+            "sound": "monkey.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Rhinocéros",
+            "photo": "rhinoceros.png",
+            "sound": "rhinoceros.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Rhinocéron",
+            "photo": "rhinoceros_baby.png",
+            "sound": "rhinoceros_baby.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Tigre",
+            "photo": "tiger.png",
+            "sound": "tiger.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Tigreau",
+            "photo": "tiger_baby.png",
+            "sound": "tiger_baby.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Grenouille",
+            "photo": "frog_2.png",
+            "sound": "frog_2.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Flamant rose",
+            "photo": "flamingo.png",
+            "sound": "flamingo.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Crocodile",
+            "photo": "crocodile.png",
+            "sound": "crocodile.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Éléphant",
+            "photo": "elephant.png",
+            "sound": "elephant.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Éléphanteau",
+            "photo": "elephant_baby.png",
+            "sound": "elephant_baby.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Toucan",
+            "photo": "toucan.png",
+            "sound": "toucan.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Serpent",
+            "photo": "snake.png",
+            "sound": "snake.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Girafe",
+            "photo": "giraffe.png",
+            "sound": "giraffe.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Zèbre",
+            "photo": "zebra.png",
+            "sound": "zebra.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Ara rouge",
+            "photo": "parrot_red.png",
+            "sound": "parrot_red.mp3",
+            "category": "africa"
+        },
+        {
+            "name": "Ara bleu et jaune",
+            "photo": "parrot_yellow.png",
+            "sound": "parrot_yellow.mp3",
+            "category": "africa"
         }
     ]
 }
